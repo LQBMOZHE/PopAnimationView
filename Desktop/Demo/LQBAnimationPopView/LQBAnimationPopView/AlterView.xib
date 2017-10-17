@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="AlterView">
+            <rect key="frame" x="0.0" y="0.0" width="285" height="187"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nam-fO-Hvq">
+                    <rect key="frame" x="142" y="140.5" width="1" height="46"/>
+                    <color key="backgroundColor" red="0.87058823529999996" green="0.87058823529999996" blue="0.87058823529999996" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="46" id="JGv-Zs-tqO"/>
+                        <constraint firstAttribute="width" constant="1" id="fnr-w4-ns9"/>
+                    </constraints>
+                </view>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="人生，如一幅春夏秋冬的景象，岁月，像一趟穿越四季的列车，我们都在路上。际遇是沿途的风光，无论我们是无视或是欣赏，终究都成为匆匆的过往。珍惜吧，珍惜会让生命中的美好增加一些重量。" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kV4-Cm-IJf">
+                    <rect key="frame" x="20" y="40" width="245" height="100"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="100" id="XGJ-lf-4Hz"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <color key="textColor" red="0.53333333329999999" green="0.53333333329999999" blue="0.53333333329999999" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="标题" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rHC-fz-DlG">
+                    <rect key="frame" x="0.0" y="0.0" width="285" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="v50-ZG-HA1"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                    <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WDZ-aY-Tuu">
+                    <rect key="frame" x="0.0" y="140.5" width="142" height="46"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="46" id="E4F-cY-e9q"/>
+                    </constraints>
+                    <state key="normal" title="取消">
+                        <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="canceSureAction:" destination="iN0-l3-epB" eventType="touchUpInside" id="qyN-ii-dhi"/>
+                    </connections>
+                </button>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xYQ-pW-o2l">
+                    <rect key="frame" x="0.0" y="140" width="285" height="0.5"/>
+                    <color key="backgroundColor" red="0.87058823529999996" green="0.87058823529999996" blue="0.87058823529999996" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="1" id="ES4-nl-cin"/>
+                    </constraints>
+                </view>
+                <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x1P-0P-XFT">
+                    <rect key="frame" x="143" y="140.5" width="142" height="46"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="46" id="uT0-4v-NOk"/>
+                    </constraints>
+                    <state key="normal" title="确定">
+                        <color key="titleColor" red="0.93725490199999995" green="0.34901960780000002" blue="0.34509803919999998" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="canceSureAction:" destination="iN0-l3-epB" eventType="touchUpInside" id="cEP-ol-mMp"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="WDZ-aY-Tuu" firstAttribute="top" secondItem="xYQ-pW-o2l" secondAttribute="bottom" id="9gx-c8-oC9"/>
+                <constraint firstItem="WDZ-aY-Tuu" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="BWn-B8-JPa"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="x1P-0P-XFT" secondAttribute="trailing" id="E43-Ms-TLf"/>
+                <constraint firstItem="nam-fO-Hvq" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="ExW-E4-gUe"/>
+                <constraint firstItem="kV4-Cm-IJf" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="20" id="HN2-27-7BI"/>
+                <constraint firstItem="xYQ-pW-o2l" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="Mrp-g5-IAW"/>
+                <constraint firstItem="xYQ-pW-o2l" firstAttribute="top" secondItem="kV4-Cm-IJf" secondAttribute="bottom" id="PFh-8U-9fe"/>
+                <constraint firstItem="nam-fO-Hvq" firstAttribute="leading" secondItem="WDZ-aY-Tuu" secondAttribute="trailing" id="Pz2-6l-84g"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="kV4-Cm-IJf" secondAttribute="trailing" constant="20" id="Yeb-Vc-xYc"/>
+                <constraint firstAttribute="trailing" secondItem="xYQ-pW-o2l" secondAttribute="trailing" id="gnu-be-pEj"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="rHC-fz-DlG" secondAttribute="trailing" id="lk6-ap-Otg"/>
+                <constraint firstItem="x1P-0P-XFT" firstAttribute="top" secondItem="xYQ-pW-o2l" secondAttribute="bottom" id="pT0-Me-11A"/>
+                <constraint firstItem="rHC-fz-DlG" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="saA-BJ-XLG"/>
+                <constraint firstItem="x1P-0P-XFT" firstAttribute="leading" secondItem="nam-fO-Hvq" secondAttribute="trailing" id="uqb-SA-jOB"/>
+                <constraint firstItem="kV4-Cm-IJf" firstAttribute="top" secondItem="rHC-fz-DlG" secondAttribute="bottom" id="uwn-J8-Qsc"/>
+                <constraint firstItem="rHC-fz-DlG" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="wAz-Xs-Ivp"/>
+                <constraint firstItem="nam-fO-Hvq" firstAttribute="top" secondItem="xYQ-pW-o2l" secondAttribute="bottom" id="wSN-C2-UGD"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <point key="canvasLocation" x="-44.5" y="-231.5"/>
+        </view>
+    </objects>
+</document>
